@@ -12,10 +12,10 @@ function ImageDisplay(props) {
             <div className='floatContainer'>
                 <h1 className='title'>{props.title}</h1>
                 
-                <h3 className='subtitle'>{props.subtitle}</h3>
+                <h1 className='subtitle'>{props.subtitle}</h1>
             </div>
             <div className='floatContainer'>
-
+                <span className='helper'></span>
                 <img src={props.imageUrl} width='100%' height='auto'/>
             </div>
             
